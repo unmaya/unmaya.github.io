@@ -1,20 +1,65 @@
 // QUICK SETTINGS ///////////////////////////////////
 
-$em-base            : 16px;
-$body-bg            : #fff !default;
-$body-font-color    : #333333;
-$linkColor	        : #555555;
-$coloredText        : #336699;
-$linkHoverColor     : saturate($coloredText, 15%);
-$highText           : saturate(lighten($coloredText, 15%), 40%);
-$lightText			: lighten($body-font-color, 75%);
-$headingsFont       : source-sans-pro, "Helvetica Neue", "Helvetica", sans-serif;
-$body-font-family   : "Helvetica Neue", "Helvetica", Arial, sans-serif;
-@include establish-baseline;
+// Site Styling Variables
+$body-bg             : #ffffff;
+$base-font-color     : #333333;
+$linkColor	         : #72CEE7;
+$linkHoverColor      : saturate(lighten($linkColor, 25%), 25%);
+$lightText			     : lighten($base-font-color, 45%);
+$em-base             : 16px;
+// @include establish-baseline;
 
-
-.copyright {
-	@include adjust-font-size-to(12px);
-	margin: 1em 0;
-	text-align: center;
+////////////////////////////////
+// Site Styles
+html {font-size: $em-base;}
+body {
+	background: $body-bg;
+	color: $base-font-color;
+	font-family: $base-font-family;
+	-webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {margin-bottom: 0;}
+p {margin: .04em 0 1.5em; font-size: 1.2em;}
+a {
+	&:link, &:visited {color: $linkColor;}
+	&:hover, &:active {color: $linkHoverColor;}
+}
+main {
+	header {
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 $gutters;
 	}
+}
+.content {
+	margin: 0 auto;
+	width: $small-breakpoint;
+	padding: 0 $gutters;
+
+	@include respond-to('turn single column') {
+		width: auto;
+	}
+	> * {
+		max-width: $small-breakpoint;
+		margin-left: auto; margin-right: auto;
+		}
+
+	[role="banner"] {
+		h1 {
+			font-family: $girder-font-family;
+			font-weight: 300;
+			font-size: 4em;
+			margin-top: 1em;
+			margin-bottom: 0;
+			letter-spacing: -.05em;
+			text-transform: uppercase;
+		}
+	}
+	a:link, a:visited { color: darken($linkColor, 25%);}
+}
+footer {
+	padding: 3em 0;
+	@include text-align(center);
+	margin: 0 auto;
+	a {text-transform: uppercase;}
+}

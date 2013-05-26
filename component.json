@@ -1,0 +1,12 @@
+{
+  "name": "Comfy Pixel",
+  "version": "0.5.0",
+  "author": "Fred Maya",
+  "homepage": "https://comfypixel.com",
+  "dependencies": {
+    "normalize.scss": "~2.1.0",
+    "jquery": "~1.9.1",
+    "fittext": "https://github.com/davatron5000/FitText.js.git",
+    "girder": "https://github.com/unmaya/Girder.git"
+  }
+}

@@ -1,13 +1,6 @@
 @charset "UTF-8";
 /* normalize.css v2.1.0 | MIT License | git.io/normalize */
-/* normalize.scss v2.1.0 | MIT/GPLv2 License | bit.ly/normalize-with-compass */
-/* ==========================================================================
-   HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined in IE 8/9.
- */
-/* line 63, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\0000317}}
 article,
 aside,
 details,
@@ -23,10 +16,7 @@ summary {
   display: block;
 }
 
-/**
- * Correct `inline-block` display not defined in IE 8/9.
- */
-/* line 73, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\0000322}}
 audio,
 canvas,
 video {
@@ -35,130 +25,79 @@ video {
   *zoom: 1;
 }
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-/* line 86, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\0000335}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/**
- * Address styling not present in IE 7/8/9.
- * Known issue: no IE 6 support.
- */
-/* line 96, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\0000345}}
 [hidden] {
   display: none;
 }
 
-/* ==========================================================================
-   Base
-   ========================================================================== */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- * 3. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
- *    `em` units.
- */
-/* line 112, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\0000361}}
 html {
-  font-family: sans-serif;
-  /* 1 */
+  font-family: source-sans-pro, "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 100%;
-  /* 3 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-  /* Establish a vertical rhythm unit using $base-line-height. */
   line-height: 1.5em;
 }
 
-/**
- * Address `font-family` inconsistency between `textarea` and other form
- * elements in IE 6/7.
- */
-/* line 130, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\0000379}}
 button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: source-sans-pro, "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 
-/**
- * Remove default margin.
- */
-/* line 139, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\0000388}}
 body {
   margin: 0;
 }
 
-/* ==========================================================================
-   Links
-   ========================================================================== */
-/**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-/* line 151, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003100}}
 a:focus {
   outline: thin dotted;
 }
 
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-/* line 160, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003109}}
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-/**
- * Set 1 unit of vertical rhythm on the top and bottom margin.
- */
-/* line 173, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003122}}
 p,
 pre {
   margin: 1.5em 0;
 }
 
-/* line 177, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003126}}
 blockquote {
-  /* Set 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: 1.5em 40px;
+  margin: 1.5em 30px;
 }
 
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome.
- */
-/* line 187, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003136}}
 h1 {
-  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
-  font-size: 2em;
-  line-height: 1.5em;
-  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
+  font-size: 2.8em;
+  line-height: 1.60714em;
+  margin-top: 0.53571em;
+  margin-bottom: 0.53571em;
 }
 
-/* line 196, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003145}}
 h2 {
-  font-size: 1.5em;
-  line-height: 2em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-size: 1.8em;
+  line-height: 1.66667em;
+  margin-top: 0.83333em;
+  margin-bottom: 0.83333em;
 }
 
-/* line 202, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003151}}
 h3 {
   font-size: 1.17em;
   line-height: 1.28205em;
@@ -166,7 +105,7 @@ h3 {
   margin-bottom: 1.28205em;
 }
 
-/* line 208, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003157}}
 h4 {
   font-size: 1em;
   line-height: 1.5em;
@@ -174,7 +113,7 @@ h4 {
   margin-bottom: 1.5em;
 }
 
-/* line 214, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003163}}
 h5 {
   font-size: 0.83em;
   line-height: 1.80723em;
@@ -182,7 +121,7 @@ h5 {
   margin-bottom: 1.80723em;
 }
 
-/* line 220, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003169}}
 h6 {
   font-size: 0.67em;
   line-height: 2.23881em;
@@ -190,36 +129,23 @@ h6 {
   margin-bottom: 2.23881em;
 }
 
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
-/* line 230, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003179}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-/* line 239, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003188}}
 b,
 strong {
   font-weight: bold;
 }
 
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
-/* line 247, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003196}}
 dfn {
   font-style: italic;
 }
 
-/**
- * Address differences between Firefox and other browsers.
- * Known issue: no IE 6/7 normalization.
- */
-/* line 256, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003205}}
 hr {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -227,19 +153,13 @@ hr {
   height: 0;
 }
 
-/**
- * Address styling not present in IE 8/9.
- */
-/* line 265, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003214}}
 mark {
   background: #ff0;
   color: #000;
 }
 
-/**
- * Correct font family set oddly in Safari 5 and Chrome.
- */
-/* line 277, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003226}}
 code,
 kbd,
 pre,
@@ -250,34 +170,22 @@ samp {
   line-height: 1.5em;
 }
 
-/**
- * Improve readability of pre-formatted text in all browsers.
- */
-/* line 289, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003238}}
 pre {
   white-space: pre-wrap;
 }
 
-/**
- * Set consistent quote types.
- */
-/* line 297, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003246}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-/* line 305, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003254}}
 small {
   font-size: 80%;
 }
 
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-/* line 314, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003263}}
 sub,
 sup {
   font-size: 75%;
@@ -286,268 +194,161 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 321, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003270}}
 sup {
   top: -0.5em;
 }
 
-/* line 325, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003274}}
 sub {
   bottom: -0.25em;
 }
 
-/* ==========================================================================
-   Lists
-   ========================================================================== */
-/**
- * Set 1 unit of vertical rhythm and a consistent indentation.
- */
-/* line 340, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003289}}
 dl,
 menu,
 ol,
 ul {
   margin: 1.5em 0;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 30px;
 }
 
-/* line 345, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003294}}
 dl {
   padding: 0;
 }
 
-/* line 349, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003298}}
 dd {
-  margin: 0 0 0 40px;
+  margin: 0 0 0 30px;
 }
 
-/**
- * Correct list images handled incorrectly in IE 7.
- */
-/* line 359, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003308}}
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-/* ==========================================================================
-   Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
-/* line 373, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003322}}
 img {
   border: 0;
-  /* Improve image quality when scaled in IE 7. */
   -ms-interpolation-mode: bicubic;
 }
 
-/**
- * Correct overflow displayed oddly in IE 9.
- */
-/* line 385, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003334}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* ==========================================================================
-   Figures
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari 5.
- */
-/* line 397, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003346}}
 figure {
   margin: 0;
 }
 
-/* ==========================================================================
-   Forms
-   ========================================================================== */
-/**
- * Correct margin displayed oddly in IE 6/7.
- */
-/* line 410, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003359}}
 form {
   margin: 0;
 }
 
-/**
- * Define consistent border, margin, and padding.
- */
-/* line 419, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003368}}
 fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
-  /* Apply borders and padding that keep the vertical rhythm. */
-  border-top-style: solid;
   border-top-width: 0.0625em;
+  border-top-style: solid;
   padding-top: 0.4625em;
-  border-bottom-style: solid;
   border-bottom-width: 0.0625em;
+  border-bottom-style: solid;
   padding-bottom: 0.9125em;
-  border-left-style: solid;
   border-left-width: 0.0625em;
+  border-left-style: solid;
   padding-left: 0.875em;
-  border-right-style: solid;
   border-right-width: 0.0625em;
+  border-right-style: solid;
   padding-right: 0.875em;
 }
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- * 3. Correct alignment displayed oddly in IE 6/7.
- */
-/* line 435, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003384}}
 legend {
   border: 0;
-  /* 1 */
   padding: 0;
-  /* 2 */
   *margin-left: -7px;
-  /* 3 */
 }
 
-/**
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- * 4. Improve appearance and consistency with IE 6/7.
- */
-/* line 453, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003402}}
 button,
 input,
 select,
 textarea {
   font-family: inherit;
-  /* 1 */
   font-size: 100%;
-  /* 2 */
   margin: 0;
-  /* 3 */
   vertical-align: baseline;
-  /* 4 */
   *vertical-align: middle;
-  /* 4 */
 }
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-/* line 469, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003418}}
 button,
 input {
   line-height: normal;
 }
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
- * Correct `select` style inheritance in Firefox 4+ and Opera.
- */
-/* line 481, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003430}}
 button,
 select {
   text-transform: none;
 }
 
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
- *    Known issue: inner spacing remains in IE 6.
- */
-/* line 498, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003447}}
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
   cursor: pointer;
-  /* 3 */
   *overflow: visible;
-  /* 4 */
 }
 
-/**
- * Re-set default cursor for disabled elements.
- */
-/* line 511, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003460}}
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/**
- * 1. Address box sizing set to `content-box` in IE 8/9.
- * 2. Remove excess padding in IE 8/9.
- * 3. Remove excess padding in IE 7.
- *    Known issue: excess padding remains in IE 6.
- */
-/* line 523, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003472}}
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* 1 */
   padding: 0;
-  /* 2 */
   *height: 13px;
-  /* 3 */
   *width: 13px;
-  /* 3 */
 }
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-/* line 538, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003487}}
 input[type="search"] {
   -webkit-appearance: textfield;
-  /* 1 */
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  /* 2 */
 }
 
-/**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-/* line 549, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003498}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-/* line 558, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003507}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/**
- * 1. Remove default vertical scrollbar in IE 8/9.
- * 2. Improve readability and alignment in all browsers.
- */
-/* line 568, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003517}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -555,410 +356,148 @@ textarea {
   /* 2 */
 }
 
-/* ==========================================================================
-   Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
-/* line 581, ../../../components/normalize.scss/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/_normalize\.scss}line{font-family:\00003530}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 29, ../../scss/main.scss */
+/* /////////////////////////////////////////////// */
+/*   Guirder is a Sassy grid toolkit   ////////// */
+/*   Simple, Responsive & Semantic    ////////// */
+/* //////////////////////////////////////////// */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_base\.scss}line{font-family:\000036}}
 *, *:before, *:after {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
-/* line 36, ../../scss/main.scss */
-.left {
-  float: left !important;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_base\.scss}line{font-family:\0000313}}
+.container, .row {
+  margin: 0 auto;
+  max-width: auto;
 }
 
-/* line 37, ../../scss/main.scss */
-.right {
-  float: right !important;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_base\.scss}line{font-family:\0000378}}
+.row {
+  display: block;
+  clear: both;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_base\.scss}line{font-family:\00003139}}
+.row:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_base\.scss}line{font-family:\00003141}}
+.row:before, .row:after {
+  display: table;
+  content: "";
+  line-height: 0;
 }
 
-/* line 38, ../../scss/main.scss */
-.text-left {
-  text-align: left !important;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_responsive\.scss}line{font-family:\0000320}}
+.center-small {
+  text-align: center;
+}
+@media (min-width: 35.5em) and (max-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_responsive\.scss}line{font-family:\0000320}}
+  .center-small {
+    text-align: inherit;
+  }
 }
 
-/* line 39, ../../scss/main.scss */
-.text-right {
-  text-align: right !important;
-}
-
-/* line 40, ../../scss/main.scss */
-.text-center {
-  text-align: center !important;
-}
-
-/* line 41, ../../scss/main.scss */
-.text-justify {
-  text-align: justify !important;
-}
-
-/* line 42, ../../scss/main.scss */
-.hide {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_responsive\.scss}line{font-family:\0000326}}
+.hide-small {
   display: none;
 }
-
-/* line 61, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
-* html {
-  font-size: 100%;
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/components\/girder\/scss\/girder_modules\/_girder_responsive\.scss}line{font-family:\0000326}}
+  .hide-small {
+    display: block;
+  }
 }
 
-/* line 64, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
-html {
-  font-size: 16px;
-  line-height: 1.5em;
-}
-
-/* line 45, ../../scss/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000314}}
 html {
   font-size: 16px;
 }
 
-/* line 48, ../../scss/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000315}}
 body {
   background: white;
   color: #333333;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-family: source-sans-pro, "Helvetica Neue", "Helvetica", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 54, ../../scss/_base.scss */
-.container {
-  margin: 0 auto;
-  min-width: 320px;
-  min-height: 100%;
-  padding: 0 0.8em;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(22.93578%, rgba(210, 105, 30, 0.5)), color-stop(22.93578%, rgba(210, 105, 30, 0.25)), color-stop(25.68807%, rgba(210, 105, 30, 0.25)), color-stop(25.68807%, rgba(210, 105, 30, 0.5)), color-stop(48.62385%, rgba(210, 105, 30, 0.5)), color-stop(48.62385%, rgba(210, 105, 30, 0.25)), color-stop(51.37615%, rgba(210, 105, 30, 0.25)), color-stop(51.37615%, rgba(210, 105, 30, 0.5)), color-stop(74.31193%, rgba(210, 105, 30, 0.5)), color-stop(74.31193%, rgba(210, 105, 30, 0.25)), color-stop(77.06422%, rgba(210, 105, 30, 0.25)), color-stop(77.06422%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
-  background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 22.93578%, rgba(210, 105, 30, 0.25) 22.93578%, rgba(210, 105, 30, 0.25) 25.68807%, rgba(210, 105, 30, 0.5) 25.68807%, rgba(210, 105, 30, 0.5) 48.62385%, rgba(210, 105, 30, 0.25) 48.62385%, rgba(210, 105, 30, 0.25) 51.37615%, rgba(210, 105, 30, 0.5) 51.37615%, rgba(210, 105, 30, 0.5) 74.31193%, rgba(210, 105, 30, 0.25) 74.31193%, rgba(210, 105, 30, 0.25) 77.06422%, rgba(210, 105, 30, 0.5) 77.06422%, rgba(210, 105, 30, 0.5) 100%);
-  background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 22.93578%, rgba(210, 105, 30, 0.25) 22.93578%, rgba(210, 105, 30, 0.25) 25.68807%, rgba(210, 105, 30, 0.5) 25.68807%, rgba(210, 105, 30, 0.5) 48.62385%, rgba(210, 105, 30, 0.25) 48.62385%, rgba(210, 105, 30, 0.25) 51.37615%, rgba(210, 105, 30, 0.5) 51.37615%, rgba(210, 105, 30, 0.5) 74.31193%, rgba(210, 105, 30, 0.25) 74.31193%, rgba(210, 105, 30, 0.25) 77.06422%, rgba(210, 105, 30, 0.5) 77.06422%, rgba(210, 105, 30, 0.5) 100%);
-  background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 22.93578%, rgba(210, 105, 30, 0.25) 22.93578%, rgba(210, 105, 30, 0.25) 25.68807%, rgba(210, 105, 30, 0.5) 25.68807%, rgba(210, 105, 30, 0.5) 48.62385%, rgba(210, 105, 30, 0.25) 48.62385%, rgba(210, 105, 30, 0.25) 51.37615%, rgba(210, 105, 30, 0.5) 51.37615%, rgba(210, 105, 30, 0.5) 74.31193%, rgba(210, 105, 30, 0.25) 74.31193%, rgba(210, 105, 30, 0.25) 77.06422%, rgba(210, 105, 30, 0.5) 77.06422%, rgba(210, 105, 30, 0.5) 100%);
-  background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 22.93578%, rgba(210, 105, 30, 0.25) 22.93578%, rgba(210, 105, 30, 0.25) 25.68807%, rgba(210, 105, 30, 0.5) 25.68807%, rgba(210, 105, 30, 0.5) 48.62385%, rgba(210, 105, 30, 0.25) 48.62385%, rgba(210, 105, 30, 0.25) 51.37615%, rgba(210, 105, 30, 0.5) 51.37615%, rgba(210, 105, 30, 0.5) 74.31193%, rgba(210, 105, 30, 0.25) 74.31193%, rgba(210, 105, 30, 0.25) 77.06422%, rgba(210, 105, 30, 0.5) 77.06422%, rgba(210, 105, 30, 0.5) 100%);
-}
-@media (min-width: 30.625em) {
-  /* line 54, ../../scss/_base.scss */
-  .container {
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(15.15152%, rgba(210, 105, 30, 0.5)), color-stop(15.15152%, rgba(210, 105, 30, 0.25)), color-stop(16.9697%, rgba(210, 105, 30, 0.25)), color-stop(16.9697%, rgba(210, 105, 30, 0.5)), color-stop(32.12121%, rgba(210, 105, 30, 0.5)), color-stop(32.12121%, rgba(210, 105, 30, 0.25)), color-stop(33.93939%, rgba(210, 105, 30, 0.25)), color-stop(33.93939%, rgba(210, 105, 30, 0.5)), color-stop(49.09091%, rgba(210, 105, 30, 0.5)), color-stop(49.09091%, rgba(210, 105, 30, 0.25)), color-stop(50.90909%, rgba(210, 105, 30, 0.25)), color-stop(50.90909%, rgba(210, 105, 30, 0.5)), color-stop(66.06061%, rgba(210, 105, 30, 0.5)), color-stop(66.06061%, rgba(210, 105, 30, 0.25)), color-stop(67.87879%, rgba(210, 105, 30, 0.25)), color-stop(67.87879%, rgba(210, 105, 30, 0.5)), color-stop(83.0303%, rgba(210, 105, 30, 0.5)), color-stop(83.0303%, rgba(210, 105, 30, 0.25)), color-stop(84.84848%, rgba(210, 105, 30, 0.25)), color-stop(84.84848%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
-    background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 15.15152%, rgba(210, 105, 30, 0.25) 15.15152%, rgba(210, 105, 30, 0.25) 16.9697%, rgba(210, 105, 30, 0.5) 16.9697%, rgba(210, 105, 30, 0.5) 32.12121%, rgba(210, 105, 30, 0.25) 32.12121%, rgba(210, 105, 30, 0.25) 33.93939%, rgba(210, 105, 30, 0.5) 33.93939%, rgba(210, 105, 30, 0.5) 49.09091%, rgba(210, 105, 30, 0.25) 49.09091%, rgba(210, 105, 30, 0.25) 50.90909%, rgba(210, 105, 30, 0.5) 50.90909%, rgba(210, 105, 30, 0.5) 66.06061%, rgba(210, 105, 30, 0.25) 66.06061%, rgba(210, 105, 30, 0.25) 67.87879%, rgba(210, 105, 30, 0.5) 67.87879%, rgba(210, 105, 30, 0.5) 83.0303%, rgba(210, 105, 30, 0.25) 83.0303%, rgba(210, 105, 30, 0.25) 84.84848%, rgba(210, 105, 30, 0.5) 84.84848%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 15.15152%, rgba(210, 105, 30, 0.25) 15.15152%, rgba(210, 105, 30, 0.25) 16.9697%, rgba(210, 105, 30, 0.5) 16.9697%, rgba(210, 105, 30, 0.5) 32.12121%, rgba(210, 105, 30, 0.25) 32.12121%, rgba(210, 105, 30, 0.25) 33.93939%, rgba(210, 105, 30, 0.5) 33.93939%, rgba(210, 105, 30, 0.5) 49.09091%, rgba(210, 105, 30, 0.25) 49.09091%, rgba(210, 105, 30, 0.25) 50.90909%, rgba(210, 105, 30, 0.5) 50.90909%, rgba(210, 105, 30, 0.5) 66.06061%, rgba(210, 105, 30, 0.25) 66.06061%, rgba(210, 105, 30, 0.25) 67.87879%, rgba(210, 105, 30, 0.5) 67.87879%, rgba(210, 105, 30, 0.5) 83.0303%, rgba(210, 105, 30, 0.25) 83.0303%, rgba(210, 105, 30, 0.25) 84.84848%, rgba(210, 105, 30, 0.5) 84.84848%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 15.15152%, rgba(210, 105, 30, 0.25) 15.15152%, rgba(210, 105, 30, 0.25) 16.9697%, rgba(210, 105, 30, 0.5) 16.9697%, rgba(210, 105, 30, 0.5) 32.12121%, rgba(210, 105, 30, 0.25) 32.12121%, rgba(210, 105, 30, 0.25) 33.93939%, rgba(210, 105, 30, 0.5) 33.93939%, rgba(210, 105, 30, 0.5) 49.09091%, rgba(210, 105, 30, 0.25) 49.09091%, rgba(210, 105, 30, 0.25) 50.90909%, rgba(210, 105, 30, 0.5) 50.90909%, rgba(210, 105, 30, 0.5) 66.06061%, rgba(210, 105, 30, 0.25) 66.06061%, rgba(210, 105, 30, 0.25) 67.87879%, rgba(210, 105, 30, 0.5) 67.87879%, rgba(210, 105, 30, 0.5) 83.0303%, rgba(210, 105, 30, 0.25) 83.0303%, rgba(210, 105, 30, 0.25) 84.84848%, rgba(210, 105, 30, 0.5) 84.84848%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 15.15152%, rgba(210, 105, 30, 0.25) 15.15152%, rgba(210, 105, 30, 0.25) 16.9697%, rgba(210, 105, 30, 0.5) 16.9697%, rgba(210, 105, 30, 0.5) 32.12121%, rgba(210, 105, 30, 0.25) 32.12121%, rgba(210, 105, 30, 0.25) 33.93939%, rgba(210, 105, 30, 0.5) 33.93939%, rgba(210, 105, 30, 0.5) 49.09091%, rgba(210, 105, 30, 0.25) 49.09091%, rgba(210, 105, 30, 0.25) 50.90909%, rgba(210, 105, 30, 0.5) 50.90909%, rgba(210, 105, 30, 0.5) 66.06061%, rgba(210, 105, 30, 0.25) 66.06061%, rgba(210, 105, 30, 0.25) 67.87879%, rgba(210, 105, 30, 0.5) 67.87879%, rgba(210, 105, 30, 0.5) 83.0303%, rgba(210, 105, 30, 0.25) 83.0303%, rgba(210, 105, 30, 0.25) 84.84848%, rgba(210, 105, 30, 0.5) 84.84848%, rgba(210, 105, 30, 0.5) 100%);
-  }
-}
-@media (min-width: 40em) {
-  /* line 54, ../../scss/_base.scss */
-  .container {
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(11.31222%, rgba(210, 105, 30, 0.5)), color-stop(11.31222%, rgba(210, 105, 30, 0.25)), color-stop(12.66968%, rgba(210, 105, 30, 0.25)), color-stop(12.66968%, rgba(210, 105, 30, 0.5)), color-stop(23.9819%, rgba(210, 105, 30, 0.5)), color-stop(23.9819%, rgba(210, 105, 30, 0.25)), color-stop(25.33937%, rgba(210, 105, 30, 0.25)), color-stop(25.33937%, rgba(210, 105, 30, 0.5)), color-stop(36.65158%, rgba(210, 105, 30, 0.5)), color-stop(36.65158%, rgba(210, 105, 30, 0.25)), color-stop(38.00905%, rgba(210, 105, 30, 0.25)), color-stop(38.00905%, rgba(210, 105, 30, 0.5)), color-stop(49.32127%, rgba(210, 105, 30, 0.5)), color-stop(49.32127%, rgba(210, 105, 30, 0.25)), color-stop(50.67873%, rgba(210, 105, 30, 0.25)), color-stop(50.67873%, rgba(210, 105, 30, 0.5)), color-stop(61.99095%, rgba(210, 105, 30, 0.5)), color-stop(61.99095%, rgba(210, 105, 30, 0.25)), color-stop(63.34842%, rgba(210, 105, 30, 0.25)), color-stop(63.34842%, rgba(210, 105, 30, 0.5)), color-stop(74.66063%, rgba(210, 105, 30, 0.5)), color-stop(74.66063%, rgba(210, 105, 30, 0.25)), color-stop(76.0181%, rgba(210, 105, 30, 0.25)), color-stop(76.0181%, rgba(210, 105, 30, 0.5)), color-stop(87.33032%, rgba(210, 105, 30, 0.5)), color-stop(87.33032%, rgba(210, 105, 30, 0.25)), color-stop(88.68778%, rgba(210, 105, 30, 0.25)), color-stop(88.68778%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
-    background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 11.31222%, rgba(210, 105, 30, 0.25) 11.31222%, rgba(210, 105, 30, 0.25) 12.66968%, rgba(210, 105, 30, 0.5) 12.66968%, rgba(210, 105, 30, 0.5) 23.9819%, rgba(210, 105, 30, 0.25) 23.9819%, rgba(210, 105, 30, 0.25) 25.33937%, rgba(210, 105, 30, 0.5) 25.33937%, rgba(210, 105, 30, 0.5) 36.65158%, rgba(210, 105, 30, 0.25) 36.65158%, rgba(210, 105, 30, 0.25) 38.00905%, rgba(210, 105, 30, 0.5) 38.00905%, rgba(210, 105, 30, 0.5) 49.32127%, rgba(210, 105, 30, 0.25) 49.32127%, rgba(210, 105, 30, 0.25) 50.67873%, rgba(210, 105, 30, 0.5) 50.67873%, rgba(210, 105, 30, 0.5) 61.99095%, rgba(210, 105, 30, 0.25) 61.99095%, rgba(210, 105, 30, 0.25) 63.34842%, rgba(210, 105, 30, 0.5) 63.34842%, rgba(210, 105, 30, 0.5) 74.66063%, rgba(210, 105, 30, 0.25) 74.66063%, rgba(210, 105, 30, 0.25) 76.0181%, rgba(210, 105, 30, 0.5) 76.0181%, rgba(210, 105, 30, 0.5) 87.33032%, rgba(210, 105, 30, 0.25) 87.33032%, rgba(210, 105, 30, 0.25) 88.68778%, rgba(210, 105, 30, 0.5) 88.68778%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 11.31222%, rgba(210, 105, 30, 0.25) 11.31222%, rgba(210, 105, 30, 0.25) 12.66968%, rgba(210, 105, 30, 0.5) 12.66968%, rgba(210, 105, 30, 0.5) 23.9819%, rgba(210, 105, 30, 0.25) 23.9819%, rgba(210, 105, 30, 0.25) 25.33937%, rgba(210, 105, 30, 0.5) 25.33937%, rgba(210, 105, 30, 0.5) 36.65158%, rgba(210, 105, 30, 0.25) 36.65158%, rgba(210, 105, 30, 0.25) 38.00905%, rgba(210, 105, 30, 0.5) 38.00905%, rgba(210, 105, 30, 0.5) 49.32127%, rgba(210, 105, 30, 0.25) 49.32127%, rgba(210, 105, 30, 0.25) 50.67873%, rgba(210, 105, 30, 0.5) 50.67873%, rgba(210, 105, 30, 0.5) 61.99095%, rgba(210, 105, 30, 0.25) 61.99095%, rgba(210, 105, 30, 0.25) 63.34842%, rgba(210, 105, 30, 0.5) 63.34842%, rgba(210, 105, 30, 0.5) 74.66063%, rgba(210, 105, 30, 0.25) 74.66063%, rgba(210, 105, 30, 0.25) 76.0181%, rgba(210, 105, 30, 0.5) 76.0181%, rgba(210, 105, 30, 0.5) 87.33032%, rgba(210, 105, 30, 0.25) 87.33032%, rgba(210, 105, 30, 0.25) 88.68778%, rgba(210, 105, 30, 0.5) 88.68778%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 11.31222%, rgba(210, 105, 30, 0.25) 11.31222%, rgba(210, 105, 30, 0.25) 12.66968%, rgba(210, 105, 30, 0.5) 12.66968%, rgba(210, 105, 30, 0.5) 23.9819%, rgba(210, 105, 30, 0.25) 23.9819%, rgba(210, 105, 30, 0.25) 25.33937%, rgba(210, 105, 30, 0.5) 25.33937%, rgba(210, 105, 30, 0.5) 36.65158%, rgba(210, 105, 30, 0.25) 36.65158%, rgba(210, 105, 30, 0.25) 38.00905%, rgba(210, 105, 30, 0.5) 38.00905%, rgba(210, 105, 30, 0.5) 49.32127%, rgba(210, 105, 30, 0.25) 49.32127%, rgba(210, 105, 30, 0.25) 50.67873%, rgba(210, 105, 30, 0.5) 50.67873%, rgba(210, 105, 30, 0.5) 61.99095%, rgba(210, 105, 30, 0.25) 61.99095%, rgba(210, 105, 30, 0.25) 63.34842%, rgba(210, 105, 30, 0.5) 63.34842%, rgba(210, 105, 30, 0.5) 74.66063%, rgba(210, 105, 30, 0.25) 74.66063%, rgba(210, 105, 30, 0.25) 76.0181%, rgba(210, 105, 30, 0.5) 76.0181%, rgba(210, 105, 30, 0.5) 87.33032%, rgba(210, 105, 30, 0.25) 87.33032%, rgba(210, 105, 30, 0.25) 88.68778%, rgba(210, 105, 30, 0.5) 88.68778%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 11.31222%, rgba(210, 105, 30, 0.25) 11.31222%, rgba(210, 105, 30, 0.25) 12.66968%, rgba(210, 105, 30, 0.5) 12.66968%, rgba(210, 105, 30, 0.5) 23.9819%, rgba(210, 105, 30, 0.25) 23.9819%, rgba(210, 105, 30, 0.25) 25.33937%, rgba(210, 105, 30, 0.5) 25.33937%, rgba(210, 105, 30, 0.5) 36.65158%, rgba(210, 105, 30, 0.25) 36.65158%, rgba(210, 105, 30, 0.25) 38.00905%, rgba(210, 105, 30, 0.5) 38.00905%, rgba(210, 105, 30, 0.5) 49.32127%, rgba(210, 105, 30, 0.25) 49.32127%, rgba(210, 105, 30, 0.25) 50.67873%, rgba(210, 105, 30, 0.5) 50.67873%, rgba(210, 105, 30, 0.5) 61.99095%, rgba(210, 105, 30, 0.25) 61.99095%, rgba(210, 105, 30, 0.25) 63.34842%, rgba(210, 105, 30, 0.5) 63.34842%, rgba(210, 105, 30, 0.5) 74.66063%, rgba(210, 105, 30, 0.25) 74.66063%, rgba(210, 105, 30, 0.25) 76.0181%, rgba(210, 105, 30, 0.5) 76.0181%, rgba(210, 105, 30, 0.5) 87.33032%, rgba(210, 105, 30, 0.25) 87.33032%, rgba(210, 105, 30, 0.25) 88.68778%, rgba(210, 105, 30, 0.5) 88.68778%, rgba(210, 105, 30, 0.5) 100%);
-  }
-}
-@media (min-width: 49.375em) {
-  /* line 54, ../../scss/_base.scss */
-  .container {
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(7.50751%, rgba(210, 105, 30, 0.5)), color-stop(7.50751%, rgba(210, 105, 30, 0.25)), color-stop(8.40841%, rgba(210, 105, 30, 0.25)), color-stop(8.40841%, rgba(210, 105, 30, 0.5)), color-stop(15.91592%, rgba(210, 105, 30, 0.5)), color-stop(15.91592%, rgba(210, 105, 30, 0.25)), color-stop(16.81682%, rgba(210, 105, 30, 0.25)), color-stop(16.81682%, rgba(210, 105, 30, 0.5)), color-stop(24.32432%, rgba(210, 105, 30, 0.5)), color-stop(24.32432%, rgba(210, 105, 30, 0.25)), color-stop(25.22523%, rgba(210, 105, 30, 0.25)), color-stop(25.22523%, rgba(210, 105, 30, 0.5)), color-stop(32.73273%, rgba(210, 105, 30, 0.5)), color-stop(32.73273%, rgba(210, 105, 30, 0.25)), color-stop(33.63363%, rgba(210, 105, 30, 0.25)), color-stop(33.63363%, rgba(210, 105, 30, 0.5)), color-stop(41.14114%, rgba(210, 105, 30, 0.5)), color-stop(41.14114%, rgba(210, 105, 30, 0.25)), color-stop(42.04204%, rgba(210, 105, 30, 0.25)), color-stop(42.04204%, rgba(210, 105, 30, 0.5)), color-stop(49.54955%, rgba(210, 105, 30, 0.5)), color-stop(49.54955%, rgba(210, 105, 30, 0.25)), color-stop(50.45045%, rgba(210, 105, 30, 0.25)), color-stop(50.45045%, rgba(210, 105, 30, 0.5)), color-stop(57.95796%, rgba(210, 105, 30, 0.5)), color-stop(57.95796%, rgba(210, 105, 30, 0.25)), color-stop(58.85886%, rgba(210, 105, 30, 0.25)), color-stop(58.85886%, rgba(210, 105, 30, 0.5)), color-stop(66.36637%, rgba(210, 105, 30, 0.5)), color-stop(66.36637%, rgba(210, 105, 30, 0.25)), color-stop(67.26727%, rgba(210, 105, 30, 0.25)), color-stop(67.26727%, rgba(210, 105, 30, 0.5)), color-stop(74.77477%, rgba(210, 105, 30, 0.5)), color-stop(74.77477%, rgba(210, 105, 30, 0.25)), color-stop(75.67568%, rgba(210, 105, 30, 0.25)), color-stop(75.67568%, rgba(210, 105, 30, 0.5)), color-stop(83.18318%, rgba(210, 105, 30, 0.5)), color-stop(83.18318%, rgba(210, 105, 30, 0.25)), color-stop(84.08408%, rgba(210, 105, 30, 0.25)), color-stop(84.08408%, rgba(210, 105, 30, 0.5)), color-stop(91.59159%, rgba(210, 105, 30, 0.5)), color-stop(91.59159%, rgba(210, 105, 30, 0.25)), color-stop(92.49249%, rgba(210, 105, 30, 0.25)), color-stop(92.49249%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
-    background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.50751%, rgba(210, 105, 30, 0.25) 7.50751%, rgba(210, 105, 30, 0.25) 8.40841%, rgba(210, 105, 30, 0.5) 8.40841%, rgba(210, 105, 30, 0.5) 15.91592%, rgba(210, 105, 30, 0.25) 15.91592%, rgba(210, 105, 30, 0.25) 16.81682%, rgba(210, 105, 30, 0.5) 16.81682%, rgba(210, 105, 30, 0.5) 24.32432%, rgba(210, 105, 30, 0.25) 24.32432%, rgba(210, 105, 30, 0.25) 25.22523%, rgba(210, 105, 30, 0.5) 25.22523%, rgba(210, 105, 30, 0.5) 32.73273%, rgba(210, 105, 30, 0.25) 32.73273%, rgba(210, 105, 30, 0.25) 33.63363%, rgba(210, 105, 30, 0.5) 33.63363%, rgba(210, 105, 30, 0.5) 41.14114%, rgba(210, 105, 30, 0.25) 41.14114%, rgba(210, 105, 30, 0.25) 42.04204%, rgba(210, 105, 30, 0.5) 42.04204%, rgba(210, 105, 30, 0.5) 49.54955%, rgba(210, 105, 30, 0.25) 49.54955%, rgba(210, 105, 30, 0.25) 50.45045%, rgba(210, 105, 30, 0.5) 50.45045%, rgba(210, 105, 30, 0.5) 57.95796%, rgba(210, 105, 30, 0.25) 57.95796%, rgba(210, 105, 30, 0.25) 58.85886%, rgba(210, 105, 30, 0.5) 58.85886%, rgba(210, 105, 30, 0.5) 66.36637%, rgba(210, 105, 30, 0.25) 66.36637%, rgba(210, 105, 30, 0.25) 67.26727%, rgba(210, 105, 30, 0.5) 67.26727%, rgba(210, 105, 30, 0.5) 74.77477%, rgba(210, 105, 30, 0.25) 74.77477%, rgba(210, 105, 30, 0.25) 75.67568%, rgba(210, 105, 30, 0.5) 75.67568%, rgba(210, 105, 30, 0.5) 83.18318%, rgba(210, 105, 30, 0.25) 83.18318%, rgba(210, 105, 30, 0.25) 84.08408%, rgba(210, 105, 30, 0.5) 84.08408%, rgba(210, 105, 30, 0.5) 91.59159%, rgba(210, 105, 30, 0.25) 91.59159%, rgba(210, 105, 30, 0.25) 92.49249%, rgba(210, 105, 30, 0.5) 92.49249%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.50751%, rgba(210, 105, 30, 0.25) 7.50751%, rgba(210, 105, 30, 0.25) 8.40841%, rgba(210, 105, 30, 0.5) 8.40841%, rgba(210, 105, 30, 0.5) 15.91592%, rgba(210, 105, 30, 0.25) 15.91592%, rgba(210, 105, 30, 0.25) 16.81682%, rgba(210, 105, 30, 0.5) 16.81682%, rgba(210, 105, 30, 0.5) 24.32432%, rgba(210, 105, 30, 0.25) 24.32432%, rgba(210, 105, 30, 0.25) 25.22523%, rgba(210, 105, 30, 0.5) 25.22523%, rgba(210, 105, 30, 0.5) 32.73273%, rgba(210, 105, 30, 0.25) 32.73273%, rgba(210, 105, 30, 0.25) 33.63363%, rgba(210, 105, 30, 0.5) 33.63363%, rgba(210, 105, 30, 0.5) 41.14114%, rgba(210, 105, 30, 0.25) 41.14114%, rgba(210, 105, 30, 0.25) 42.04204%, rgba(210, 105, 30, 0.5) 42.04204%, rgba(210, 105, 30, 0.5) 49.54955%, rgba(210, 105, 30, 0.25) 49.54955%, rgba(210, 105, 30, 0.25) 50.45045%, rgba(210, 105, 30, 0.5) 50.45045%, rgba(210, 105, 30, 0.5) 57.95796%, rgba(210, 105, 30, 0.25) 57.95796%, rgba(210, 105, 30, 0.25) 58.85886%, rgba(210, 105, 30, 0.5) 58.85886%, rgba(210, 105, 30, 0.5) 66.36637%, rgba(210, 105, 30, 0.25) 66.36637%, rgba(210, 105, 30, 0.25) 67.26727%, rgba(210, 105, 30, 0.5) 67.26727%, rgba(210, 105, 30, 0.5) 74.77477%, rgba(210, 105, 30, 0.25) 74.77477%, rgba(210, 105, 30, 0.25) 75.67568%, rgba(210, 105, 30, 0.5) 75.67568%, rgba(210, 105, 30, 0.5) 83.18318%, rgba(210, 105, 30, 0.25) 83.18318%, rgba(210, 105, 30, 0.25) 84.08408%, rgba(210, 105, 30, 0.5) 84.08408%, rgba(210, 105, 30, 0.5) 91.59159%, rgba(210, 105, 30, 0.25) 91.59159%, rgba(210, 105, 30, 0.25) 92.49249%, rgba(210, 105, 30, 0.5) 92.49249%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.50751%, rgba(210, 105, 30, 0.25) 7.50751%, rgba(210, 105, 30, 0.25) 8.40841%, rgba(210, 105, 30, 0.5) 8.40841%, rgba(210, 105, 30, 0.5) 15.91592%, rgba(210, 105, 30, 0.25) 15.91592%, rgba(210, 105, 30, 0.25) 16.81682%, rgba(210, 105, 30, 0.5) 16.81682%, rgba(210, 105, 30, 0.5) 24.32432%, rgba(210, 105, 30, 0.25) 24.32432%, rgba(210, 105, 30, 0.25) 25.22523%, rgba(210, 105, 30, 0.5) 25.22523%, rgba(210, 105, 30, 0.5) 32.73273%, rgba(210, 105, 30, 0.25) 32.73273%, rgba(210, 105, 30, 0.25) 33.63363%, rgba(210, 105, 30, 0.5) 33.63363%, rgba(210, 105, 30, 0.5) 41.14114%, rgba(210, 105, 30, 0.25) 41.14114%, rgba(210, 105, 30, 0.25) 42.04204%, rgba(210, 105, 30, 0.5) 42.04204%, rgba(210, 105, 30, 0.5) 49.54955%, rgba(210, 105, 30, 0.25) 49.54955%, rgba(210, 105, 30, 0.25) 50.45045%, rgba(210, 105, 30, 0.5) 50.45045%, rgba(210, 105, 30, 0.5) 57.95796%, rgba(210, 105, 30, 0.25) 57.95796%, rgba(210, 105, 30, 0.25) 58.85886%, rgba(210, 105, 30, 0.5) 58.85886%, rgba(210, 105, 30, 0.5) 66.36637%, rgba(210, 105, 30, 0.25) 66.36637%, rgba(210, 105, 30, 0.25) 67.26727%, rgba(210, 105, 30, 0.5) 67.26727%, rgba(210, 105, 30, 0.5) 74.77477%, rgba(210, 105, 30, 0.25) 74.77477%, rgba(210, 105, 30, 0.25) 75.67568%, rgba(210, 105, 30, 0.5) 75.67568%, rgba(210, 105, 30, 0.5) 83.18318%, rgba(210, 105, 30, 0.25) 83.18318%, rgba(210, 105, 30, 0.25) 84.08408%, rgba(210, 105, 30, 0.5) 84.08408%, rgba(210, 105, 30, 0.5) 91.59159%, rgba(210, 105, 30, 0.25) 91.59159%, rgba(210, 105, 30, 0.25) 92.49249%, rgba(210, 105, 30, 0.5) 92.49249%, rgba(210, 105, 30, 0.5) 100%);
-    background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.50751%, rgba(210, 105, 30, 0.25) 7.50751%, rgba(210, 105, 30, 0.25) 8.40841%, rgba(210, 105, 30, 0.5) 8.40841%, rgba(210, 105, 30, 0.5) 15.91592%, rgba(210, 105, 30, 0.25) 15.91592%, rgba(210, 105, 30, 0.25) 16.81682%, rgba(210, 105, 30, 0.5) 16.81682%, rgba(210, 105, 30, 0.5) 24.32432%, rgba(210, 105, 30, 0.25) 24.32432%, rgba(210, 105, 30, 0.25) 25.22523%, rgba(210, 105, 30, 0.5) 25.22523%, rgba(210, 105, 30, 0.5) 32.73273%, rgba(210, 105, 30, 0.25) 32.73273%, rgba(210, 105, 30, 0.25) 33.63363%, rgba(210, 105, 30, 0.5) 33.63363%, rgba(210, 105, 30, 0.5) 41.14114%, rgba(210, 105, 30, 0.25) 41.14114%, rgba(210, 105, 30, 0.25) 42.04204%, rgba(210, 105, 30, 0.5) 42.04204%, rgba(210, 105, 30, 0.5) 49.54955%, rgba(210, 105, 30, 0.25) 49.54955%, rgba(210, 105, 30, 0.25) 50.45045%, rgba(210, 105, 30, 0.5) 50.45045%, rgba(210, 105, 30, 0.5) 57.95796%, rgba(210, 105, 30, 0.25) 57.95796%, rgba(210, 105, 30, 0.25) 58.85886%, rgba(210, 105, 30, 0.5) 58.85886%, rgba(210, 105, 30, 0.5) 66.36637%, rgba(210, 105, 30, 0.25) 66.36637%, rgba(210, 105, 30, 0.25) 67.26727%, rgba(210, 105, 30, 0.5) 67.26727%, rgba(210, 105, 30, 0.5) 74.77477%, rgba(210, 105, 30, 0.25) 74.77477%, rgba(210, 105, 30, 0.25) 75.67568%, rgba(210, 105, 30, 0.5) 75.67568%, rgba(210, 105, 30, 0.5) 83.18318%, rgba(210, 105, 30, 0.25) 83.18318%, rgba(210, 105, 30, 0.25) 84.08408%, rgba(210, 105, 30, 0.5) 84.08408%, rgba(210, 105, 30, 0.5) 91.59159%, rgba(210, 105, 30, 0.25) 91.59159%, rgba(210, 105, 30, 0.25) 92.49249%, rgba(210, 105, 30, 0.5) 92.49249%, rgba(210, 105, 30, 0.5) 100%);
-  }
-}
-
-/* line 63, ../../scss/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000321}}
 h1, h2, h3, h4 {
-  font-family: source-sans-pro, "Helvetica Neue", "Helvetica", sans-serif;
-  margin-bottom: .5em;
+  margin-bottom: 0;
 }
 
-/* line 67, ../../scss/_base.scss */
-h1 {
-  font-size: 2.375em;
-  line-height: 1.26316em;
-  line-height: 0.81494em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000322}}
+p {
+  margin: .04em 0 1.5em;
+  font-size: 1.2em;
 }
 
-/* line 71, ../../scss/_base.scss */
-h2 {
-  font-size: 1.875em;
-  line-height: 1.6em;
-  line-height: 0.8em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000324}}
+a:link, a:visited {
+  color: #72cee7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000325}}
+a:hover, a:active {
+  color: #daf7fe;
 }
 
-/* line 75, ../../scss/_base.scss */
-h3 {
-  font-size: 1.5em;
-  line-height: 2em;
-  line-height: 0.8em;
-}
-
-/* line 79, ../../scss/_base.scss */
-h4 {
-  font-size: 1.125em;
-  line-height: 1.33333em;
-  line-height: 0.8em;
-  margin-bottom: 1em;
-}
-
-/* line 84, ../../scss/_base.scss */
-a {
-  text-decoration: none;
-}
-/* line 85, ../../scss/_base.scss */
-a:link {
-  color: #555555;
-}
-/* line 86, ../../scss/_base.scss */
-a:visited {
-  color: #555555;
-}
-/* line 87, ../../scss/_base.scss */
-a:hover {
-  color: #2466a8;
-}
-
-/* line 90, ../../scss/_base.scss */
-img, object, embed {
-  height: auto;
-  max-width: 100%;
-}
-
-/* line 94, ../../scss/_base.scss */
-img {
-  border: 0 none;
-}
-
-/* line 99, ../../scss/_base.scss */
-header[role=banner] {
-  padding: 1.2em 0;
-}
-/* line 101, ../../scss/_base.scss */
-header[role=banner] h1 {
-  margin: .2em 0;
-}
-/* line 104, ../../scss/_base.scss */
-header[role=banner] h3 {
-  font-size: 1em;
-  margin-top: 0;
-}
-@media (min-width: 30.625em) {
-  /* line 104, ../../scss/_base.scss */
-  header[role=banner] h3 {
-    font-size: 1.5em;
-  }
-}
-@media (min-width: 40em) {
-  /* line 104, ../../scss/_base.scss */
-  header[role=banner] h3 {
-    font-size: 1.75em;
-    line-height: 1.71429em;
-    line-height: 0.68571em;
-  }
-}
-
-/* line 116, ../../scss/_base.scss */
-header {
-  padding: 0;
-  margin: 0 0 1em;
-  *zoom: 1;
-  border-bottom: 5px solid #333;
-}
-/* line 24, ../../scss/main.scss */
-header:before, header:after {
-  content: " ";
-  display: table;
-}
-/* line 25, ../../scss/main.scss */
-header:after {
-  clear: both;
-}
-/* line 121, ../../scss/_base.scss */
-header nav {
-  font-size: 0.75em;
-  line-height: 2em;
-  background: #f5f5f5;
-  padding: 2px 10px;
-  overflow: auto;
-  display: none;
-}
-@media (min-width: 40em) {
-  /* line 121, ../../scss/_base.scss */
-  header nav {
-    margin: 1em 0 0;
-  }
-}
-/* line 132, ../../scss/_base.scss */
-header nav a {
-  display: block;
-  float: left;
-  margin: 0 6px 0 0;
-  color: #555555;
-  text-decoration: none;
-}
-/* line 138, ../../scss/_base.scss */
-header nav a:hover {
-  color: #2466a8;
-}
-
-/* line 146, ../../scss/_base.scss */
-.story_caption {
-  font-size: 0.875em;
-  line-height: 1.71429em;
-  line-height: 1.37143em;
-  clear: both;
-  font-weight: bold;
-  margin: 1em 0 .6em;
-  text-transform: uppercase;
-  width: 66%;
-}
-/* line 159, ../../scss/_base.scss */
-.story_caption span {
-  color: #79a6d2;
-  padding-left: 5px;
-}
-
-/* line 164, ../../scss/_base.scss */
-article {
-  margin-bottom: 60px;
-}
-/* line 166, ../../scss/_base.scss */
-article p {
-  margin-top: .6em;
-}
-/* line 167, ../../scss/_base.scss */
-article h1 {
-  font-size: 1.75em;
-  line-height: 1.71429em;
-  line-height: 1.2em;
-  font-family: source-sans-pro, "Helvetica Neue", "Helvetica", sans-serif;
-  margin: .6em 0;
-}
-@media (min-width: 40em) {
-  /* line 167, ../../scss/_base.scss */
-  article h1 {
-    font-size: 2em;
-    line-height: 1.5em;
-    line-height: 1.125em;
-  }
-}
-/* line 178, ../../scss/_base.scss */
-article .byline {
-  font-size: .8rem;
-  margin: -1em 0 1em;
-}
-/* line 182, ../../scss/_base.scss */
-article details {
-  border: 1px solid #ccc;
-  margin: 1.5em 0;
-  padding: .5em 1em 1em;
-}
-/* line 186, ../../scss/_base.scss */
-article details summary {
-  font-weight: bold;
-  padding: .5em 0 0 .6em;
-  text-transform: uppercase;
-  text-align: center;
-}
-/* line 193, ../../scss/_base.scss */
-article section.story_update {
-  margin: 3em 0 0;
-}
-/* line 196, ../../scss/_base.scss */
-article blockquote {
-  font-size: 1.625em;
-  line-height: 1.84615em;
-  line-height: 1.38462em;
-  margin: .6em 0 .3em 1em;
-}
-/* line 201, ../../scss/_base.scss */
-article blockquote:before {
-  content: '\f106';
-  display: inline-block;
-  font: normal 32px/1 'Genericons';
-  vertical-align: middle;
-}
-@media (min-width: 40em) {
-  /* line 196, ../../scss/_base.scss */
-  article blockquote {
-    float: left;
-    max-width: 46%;
-    margin: .2em .5em 1em 0;
-  }
-}
-/* line 214, ../../scss/_base.scss */
-article figure {
-  display: table;
-  position: relative;
-  max-width: 80%;
-}
-@media (min-width: 30.625em) {
-  /* line 214, ../../scss/_base.scss */
-  article figure {
-    float: right;
-    margin: 0 0 .5em 1.5em;
-  }
-}
-/* line 223, ../../scss/_base.scss */
-article figure figcaption {
-  background: rgba(0, 0, 0, 0.8);
-  display: table-cell;
-  bottom: 20px;
-  font-weight: bold;
-  color: #ddd;
-  font-size: 0.875em;
-  line-height: 1.71429em;
-  line-height: 1.37143em;
-  padding: 6px 10px;
-  position: absolute;
-  text-align: left;
-  text-shadow: none;
-  width: 80%;
-}
-/* line 237, ../../scss/_base.scss */
-article figure figcaption span {
-  font-size: .7rem;
-  font-weight: normal;
-}
-/* line 239, ../../scss/_base.scss */
-article figure b.playicon {
-  background: rgba(255, 255, 255, 0.5);
-  display: block;
-  position: absolute;
-  left: 45%;
-  top: 40%;
-  border-radius: 20px;
-  vertical-align: middle;
-  text-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000328}}
+main header {
   margin: 0 auto;
-  padding: 8px 14px 8px 10px;
-}
-/* line 250, ../../scss/_base.scss */
-article figure b.playicon i {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-size: 1.5em;
-}
-/* line 252, ../../scss/_base.scss */
-article figure a:hover {
-  color: #555 !important;
+  text-align: center;
+  padding: 0 1.25em;
 }
 
-/* line 255, ../../scss/_base.scss */
-.copyright {
-  font-size: 0.75em;
-  line-height: 2em;
-  margin: 1em 0;
-  text-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000334}}
+.content {
+  margin: 0 auto;
+  width: 35.5em;
+  padding: 0 1.25em;
+}
+@media (min-width: 10em) and (max-width: 35.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000334}}
+  .content {
+    width: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000342}}
+.content > * {
+  max-width: 35.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000348}}
+.content [role="banner"] h1 {
+  font-family: lato, source-sans-pro, "Helvetica", sans-serif;
+  font-weight: 300;
+  font-size: 4em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  letter-spacing: -.05em;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000358}}
+.content a:link, .content a:visited {
+  color: #2099ba;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000360}}
+footer {
+  padding: 3em 0;
+  text-align: center !important;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000364}}
+footer a {
+  text-transform: uppercase;
 }

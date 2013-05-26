@@ -11,7 +11,7 @@ pygments:    false
 markdown:    maruku
 permalink:   date
 
-exclude: [scss, scripts, images, components, grunt_settings, node_modules, Gruntfile.js, package.json, component.json, Gemfile, Gemfile.lock]
+exclude: [scss, scripts, images, components, grunt_settings, node_modules, Gruntfile.js, package.json, component.json, Gemfile, Gemfile.lock, README.md, *.sublime-project, *.sublime-workspace]
 
 author: Fred Maya
 description: Comfy Pixel. Interaction Design, Information Architecture and User Experience.
