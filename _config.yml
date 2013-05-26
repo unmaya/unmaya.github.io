@@ -1,0 +1,21 @@
+baseurl: /
+url: http://localhost:4000
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+pygments:    false
+markdown:    maruku
+permalink:   date
+
+exclude: [scss, scripts, images, components, grunt_settings, node_modules, Gruntfile.js, package.json, component.json, Gemfile, Gemfile.lock]
+
+author: Fred Maya
+description: Comfy Pixel. Interaction Design, Information Architecture and User Experience.
+twitter: unmaya
+github: unmaya
+tumblr: unsurreal.com
+google_analytics_id: UA-272608-10

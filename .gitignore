@@ -1,0 +1,23 @@
+# Jekyll and Generated files
+app/_site/
+scripts/
+images/
+
+# Project Environment
+grunt_settings/
+node_modules/
+build/
+_site/
+components/
+Gemfile.lock
+Gruntfile.js
+npm-debug.log
+.sass-cache/
+
+# OS Generated files
+.DS_Store
+Thumbs.db
+
+# Editor and Project Settings
+*.sublime-project
+*.sublime-workspace
