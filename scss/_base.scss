@@ -1,16 +1,15 @@
-// QUICK SETTINGS ///////////////////////////////////
-
-// Site Styling Variables
+////////////////////////////////
+// comfypixel.com variables
 $body-bg             : #e6e6e6;
 $base-font-color     : #252525;
-$linkColor	         : #EE4938;
-$linkHoverColor      : saturate(lighten($linkColor, 25%), 25%);
-$lightText			     : lighten($base-font-color, 45%);
+$linkColor           : #EE4938;
+$linkHoverColor      : saturate(lighten($linkColor, 15%), 60%);
+$lightText           : lighten($base-font-color, 45%);
 $em-base             : 16px;
 @include establish-baseline;
 
 ////////////////////////////////
-// Site Styles
+// site styles
 html {font-size: $em-base;}
 body {
 	background: $body-bg;
@@ -18,12 +17,11 @@ body {
 	font-family: $base-font-family;
 	-webkit-font-smoothing: antialiased;
 }
-h1, h2, h3, h4 {margin-bottom: 0;}
+h1, h2, h3 {margin-bottom: 0;}
 p {
 	margin: .04em 0 1.5em;
 	@include adjust-font-size-to(24px);
 	@include adjust-leading-to(1.4, 24px);
-	// font-size: 1.4em;
 }
 a {
 	&:link, &:visited {color: $linkColor;}
@@ -38,11 +36,13 @@ main {
 		h1 {
 			font-family: $girder-font-family;
 			font-weight: 300;
-			font-size: 4em;
+			font-size: 6em;
 			letter-spacing: -.02em;
 			margin: 0 auto;
 			padding: .5em 0 .25em;
 			text-transform: uppercase;
+			text-shadow: 0 1px 0 #fff;
+			width: 100%;
 		}
 	}
 }
@@ -58,9 +58,10 @@ main {
 		font-family: $girder-font-family;
 		font-weight: 400;
 		@include adjust-font-size-to(34px);
-		@include adjust-leading-to(2.6, 34px);
+		@include adjust-leading-to(2.8, 34px);
+		text-shadow: 0 1px 0 #fff;
 	}
-	.email, .phone {color: #73A93F;}
+	.email, .phone {color: lighten($base-font-color, 35%);}
 }
 footer {
 	border-top: 1px solid #ccc;
