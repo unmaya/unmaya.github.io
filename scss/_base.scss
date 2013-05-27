@@ -33,7 +33,7 @@ main {
 	header {
 		margin: 0 auto;
 		text-align: center;
-		padding: 0 $gutters;
+		padding: 0 $gutters / 2;
 
 		h1 {
 			font-family: $girder-font-family;
