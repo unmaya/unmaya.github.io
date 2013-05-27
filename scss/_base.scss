@@ -1,13 +1,13 @@
 // QUICK SETTINGS ///////////////////////////////////
 
 // Site Styling Variables
-$body-bg             : #ffffff;
-$base-font-color     : #333333;
-$linkColor	         : #72CEE7;
+$body-bg             : #e6e6e6;
+$base-font-color     : #252525;
+$linkColor	         : #EE4938;
 $linkHoverColor      : saturate(lighten($linkColor, 25%), 25%);
 $lightText			     : lighten($base-font-color, 45%);
 $em-base             : 16px;
-// @include establish-baseline;
+@include establish-baseline;
 
 ////////////////////////////////
 // Site Styles
@@ -19,7 +19,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4 {margin-bottom: 0;}
-p {margin: .04em 0 1.5em; font-size: 1.2em;}
+p {
+	margin: .04em 0 1.5em;
+	@include adjust-font-size-to(24px);
+	@include adjust-leading-to(1.4, 24px);
+	// font-size: 1.4em;
+}
 a {
 	&:link, &:visited {color: $linkColor;}
 	&:hover, &:active {color: $linkHoverColor;}
@@ -52,16 +57,15 @@ main {
 	h2 {
 		font-family: $girder-font-family;
 		font-weight: 400;
+		@include adjust-font-size-to(34px);
+		@include adjust-leading-to(2.6, 34px);
 	}
-	> * {
-		max-width: $small-breakpoint;
-		margin-left: auto; margin-right: auto;
-		}
-	a:link, a:visited { color: darken($linkColor, 25%);}
+	.email, .phone {color: #73A93F;}
 }
 footer {
-	padding: 3em 0;
+	border-top: 1px solid #ccc;
+	margin: 4em auto 1em;
+	padding: 1em 0;
 	@include text-align(center);
-	margin: 0 auto;
-	a {text-transform: uppercase;}
+	width: 66.666%;
 }

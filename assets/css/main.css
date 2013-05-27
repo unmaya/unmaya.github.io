@@ -418,6 +418,12 @@ table {
   }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.13\.alpha\.4\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003105}}
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000314}}
 html {
   font-size: 16px;
@@ -425,8 +431,8 @@ html {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000315}}
 body {
-  background: white;
-  color: #333333;
+  background: #e6e6e6;
+  color: #252525;
   font-family: source-sans-pro, "Helvetica Neue", "Helvetica", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -439,25 +445,27 @@ h1, h2, h3, h4 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000322}}
 p {
   margin: .04em 0 1.5em;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  line-height: 2em;
+  line-height: 1.4em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000329}}
 a:link, a:visited {
-  color: #72cee7;
+  color: #ee4938;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000330}}
 a:hover, a:active {
-  color: #daf7fe;
+  color: #ffafa6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000333}}
 main header {
   margin: 0 auto;
   text-align: center;
   padding: 0 1.25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000338}}
 main header h1 {
   font-family: lato, source-sans-pro, "Helvetica", sans-serif;
   font-weight: 300;
@@ -468,41 +476,36 @@ main header h1 {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000349}}
 .content {
   margin: 0 auto;
   width: 35.5em;
   padding: 0 1.25em;
 }
 @media (min-width: 10em) and (max-width: 35.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000349}}
   .content {
     width: auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000357}}
 .content h2 {
   font-family: lato, source-sans-pro, "Helvetica", sans-serif;
   font-weight: 400;
+  font-size: 2.125em;
+  line-height: 1.41176em;
+  line-height: 1.83529em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000356}}
-.content > * {
-  max-width: 35.5em;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000360}}
-.content a:link, .content a:visited {
-  color: #2099ba;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000363}}
+.content .email, .content .phone {
+  color: #73A93F;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000365}}
 footer {
-  padding: 3em 0;
+  border-top: 1px solid #ccc;
+  margin: 4em auto 1em;
+  padding: 1em 0;
   text-align: center !important;
-  margin: 0 auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/fredm\/Repositories\/unmaya\.github\.io\/scss\/_base\.scss}line{font-family:\0000366}}
-footer a {
-  text-transform: uppercase;
+  width: 66.666%;
 }
