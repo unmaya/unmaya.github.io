@@ -29,6 +29,16 @@ main {
 		margin: 0 auto;
 		text-align: center;
 		padding: 0 $gutters;
+
+		h1 {
+			font-family: $girder-font-family;
+			font-weight: 300;
+			font-size: 4em;
+			letter-spacing: -.02em;
+			margin: 0 auto;
+			padding: .5em 0 .25em;
+			text-transform: uppercase;
+		}
 	}
 }
 .content {
@@ -39,22 +49,14 @@ main {
 	@include respond-to('turn single column') {
 		width: auto;
 	}
+	h2 {
+		font-family: $girder-font-family;
+		font-weight: 400;
+	}
 	> * {
 		max-width: $small-breakpoint;
 		margin-left: auto; margin-right: auto;
 		}
-
-	[role="banner"] {
-		h1 {
-			font-family: $girder-font-family;
-			font-weight: 300;
-			font-size: 4em;
-			margin-top: 1em;
-			margin-bottom: 0;
-			letter-spacing: -.05em;
-			text-transform: uppercase;
-		}
-	}
 	a:link, a:visited { color: darken($linkColor, 25%);}
 }
 footer {
