@@ -50,7 +50,9 @@ main {
 
 			@include respond-to('turn single column') {
 				@include adjust-font-size-to(54px);
-				@include adjust-leading-to(3.2, 54px);
+				@include adjust-leading-to(2.4, 54px);
+				margin: .4em auto;
+				padding-left: 0; padding-right: 0;
 				display: none;
 
 				&.small-headline {display: block;}
@@ -69,8 +71,8 @@ main {
 	h2 {
 		font-family: $girder-font-family;
 		font-weight: 600;
-		@include adjust-font-size-to(34px);
-		@include adjust-leading-to(2.8, 34px);
+		@include adjust-font-size-to(32px);
+		@include adjust-leading-to(2.8, 32px);
 		text-shadow: 0 1px 0 #fff;
 	}
 	.email, .phone {color: lighten($base-font-color, 35%);}
