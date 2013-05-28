@@ -19,7 +19,7 @@ body {
 	font-family: $base-font-family;
 	-webkit-font-smoothing: antialiased;
 }
-h1, h2, h3 {margin-bottom: 0;}
+h1, h2, h3 {margin-bottom: .4em;}
 p {
 	margin: .04em 0 1.5em;
 	@include adjust-font-size-to(24px);
@@ -72,7 +72,7 @@ main {
 		font-family: $girder-font-family;
 		font-weight: 600;
 		@include adjust-font-size-to(32px);
-		@include adjust-leading-to(2.8, 32px);
+		@include adjust-leading-to(1.6, 32px);
 		text-shadow: 0 1px 0 #fff;
 	}
 	.email, .phone {color: lighten($base-font-color, 35%);}
@@ -84,3 +84,4 @@ footer {
 	@include text-align(center);
 	width: 66.666%;
 }
+::selection{background: #333;}
