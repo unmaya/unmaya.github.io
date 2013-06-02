@@ -84,4 +84,5 @@ footer {
 	@include text-align(center);
 	width: 66.666%;
 }
-::selection{background: #333;}
+::selection {background: $base-font-color; color: $body-bg;}
+::-moz-selection {background: $base-font-color; color: $body-bg;}
