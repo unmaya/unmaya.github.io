@@ -23,7 +23,7 @@ h1, h2, h3 {margin-bottom: .4em;}
 p {
 	margin: .04em 0 1.5em;
 	@include adjust-font-size-to(24px);
-	@include adjust-leading-to(1.4, 24px);
+	@include adjust-leading-to(1.5, 24px);
 }
 a {
 	&:link, &:visited {color: $linkColor;}
@@ -71,8 +71,8 @@ main {
 	h2 {
 		font-family: $girder-font-family;
 		font-weight: 600;
-		@include adjust-font-size-to(32px);
-		@include adjust-leading-to(1.6, 32px);
+		@include adjust-font-size-to(34px);
+		@include adjust-leading-to(1.6, 34px);
 		text-shadow: 0 1px 0 #fff;
 	}
 	.email, .phone {color: lighten($base-font-color, 35%);}
