@@ -1,7 +1,12 @@
 Comfy Pixel [Site](http://comfypixel.com)
 ===========================
 
-This is the source code for comfypixel.com - Its a Jekyll site where we experiment with design, code and house other personal projects. Consider it our little Web lab.
+This is the source code for comfypixel.com - Its a Jekyll site where I experiment with design, code and house other personal projects. Consider it my little Web lab.
 
-Comfy Pixel is a collaboration between two curious designers: [Fred](http://fredmaya.com) & [Lisa](http://lisamaya.com)
+## Components used:
+* Girder Sass Grid [Project Page](http://comfypixel.com/Girder)
+* Breakpoint Compass [Source](https://github.com/team-sass/breakpoint)
+* FitText JS [Project Page](http://fittextjs.com/)
+
+Comfy Pixel operates as a partnership between two inquisitive minds: [Fred](http://fredmaya.com) & [Lisa](http://lisamaya.com)
 
