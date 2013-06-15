@@ -8,8 +8,6 @@ $lightText           : lighten($base-font-color, 45%);
 $em-base             : 16px;
 @include establish-baseline;
 
-$gutters: 2.4em;
-
 ////////////////////////////////
 // site styles
 html {font-size: $em-base;}
