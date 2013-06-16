@@ -19,13 +19,22 @@ body {
 }
 h1, h2, h3 {margin-bottom: .4em;}
 p {
+	@include adjust-font-size-to(20px);
+	@include adjust-leading-to(1.2, 20px);
 	margin: .04em 0 1.5em;
-	@include adjust-font-size-to(24px);
-	@include adjust-leading-to(1.5, 24px);
+
+	@include respond-to('larger screens') {
+		@include adjust-font-size-to(24px);
+		@include adjust-leading-to(1.4, 24px);
+	}
 }
 a {
-	&:link, &:visited {color: $linkColor;}
-	&:hover, &:active {color: $linkHoverColor;}
+	&:link, &:visited {color: $linkColor; text-decoration: none; padding: 0 3px;}
+	&:hover, &:active {
+		@include single-transition(background, .1s, linear, 0);
+		background: $base-font-color;
+		color: $linkHoverColor;
+	}
 }
 main {
 	header {
@@ -61,17 +70,24 @@ main {
 .content {
 	margin: 0 auto;
 	width: $small-breakpoint;
-	padding: 0 $gutters;
+	padding: 0 $gutters *2;
 
 	@include respond-to('turn single column') {
 		width: auto;
+		text-align: center;
 	}
 	h2 {
+		@include adjust-font-size-to(28px);
+		@include adjust-leading-to(1.4, 28px);
 		font-family: $girder-font-family;
-		font-weight: 600;
-		@include adjust-font-size-to(34px);
-		@include adjust-leading-to(1.6, 34px);
+		font-weight: 400;
+		text-transform: uppercase;
 		text-shadow: 0 1px 0 #fff;
+
+	@include respond-to('larger screens') {
+		@include adjust-font-size-to(32px);
+		@include adjust-leading-to(1.6, 32px);
+	}
 	}
 	.email, .phone {color: lighten($base-font-color, 35%);}
 }
@@ -82,5 +98,5 @@ footer {
 	@include text-align(center);
 	width: 66.666%;
 }
-::selection {background: $base-font-color; color: $body-bg;}
-::-moz-selection {background: $base-font-color; color: $body-bg;}
+::selection {background: $base-font-color; color: $body-bg; text-shadow: none;}
+::-moz-selection {background: $base-font-color; color: $body-bg; text-shadow: none;}

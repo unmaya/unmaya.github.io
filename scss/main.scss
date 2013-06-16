@@ -25,11 +25,8 @@ $girder-font-family   : lato, source-sans-pro, "Helvetica", sans-serif;
 // The amount lists and blockquotes are indented.
 $indent-amount: 30px !default;
 
-$em-base: $base-font-size;
-$gutters: 2.4em;
 $use-breakpoint: true;
 @import "breakpoint";
-
 
 // Layout imports
 @import "../components/girder/scss/normalize";

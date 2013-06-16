@@ -1,7 +1,6 @@
 {
   "name": "Comfy Pixel",
   "version": "0.5.0",
-  "author": "Fred Maya",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-regarde": "~0.1.1",
