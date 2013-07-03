@@ -1,5 +1,5 @@
 baseurl: /
-url: http://comfypixel.com
+url: comfypixel.com
 
 source:      .
 destination: ./_site
@@ -18,4 +18,4 @@ description: Comfy Pixel. Interaction Design, Information Architecture and User 
 twitter: unmaya
 github: unmaya
 tumblr: unsurreal.com
-google_analytics_id: UA-272608-10
+google_analytics_id: UA-272608-12
