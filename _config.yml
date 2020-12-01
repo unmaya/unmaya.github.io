@@ -1,5 +1,5 @@
 baseurl: /
-url: comfypixel.com
+url: unmaya.github.io
 
 source:      .
 destination: ./_site
@@ -11,11 +11,9 @@ pygments:    false
 markdown:    maruku
 permalink:   date
 
-exclude: [scss, scripts, images, components, grunt_settings, node_modules, Gruntfile.js, package.json, component.json, bower.json, Gemfile, Gemfile.lock, README.md, *.sublime-project, *.sublime-workspace]
+exclude: [scss, scripts, images, components, grunt_settings, node_modules, Gruntfile.js, package.json, component.json, bower.json, Gemfile, Gemfile.lock, README.md]
 
 author: Fred Maya
-description: Comfy Pixel. Interaction Design, Information Architecture and User Experience.
+description: UX / UI Design
 twitter: unmaya
 github: unmaya
-tumblr: unsurreal.com
-google_analytics_id: UA-272608-12
